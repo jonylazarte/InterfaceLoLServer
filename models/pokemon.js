@@ -12,7 +12,7 @@ const { v4: uuidv4 } = require('uuid');
 const uri = "mongodb+srv://theshakadevirgo:JohnShaka151515@leagueoflegendsclone.dwigeek.mongodb.net/?appName=LeagueOfLegendsClone";
 const localurl = 'mongodb://localhost:27017/'
 
-const client = new MongoClient(localurl, {
+const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
