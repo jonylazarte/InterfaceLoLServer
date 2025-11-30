@@ -22,7 +22,7 @@ const io = new Server(server, {
 const uri = "mongodb+srv://theshakadevirgo:JohnShaka151515@leagueoflegendsclone.dwigeek.mongodb.net/?appName=LeagueOfLegendsClone"; //"mongodb+srv://JonathanLazarte:Jonii1543104@pokemonleague.4awnj.mongodb.net/?retryWrites=true&w=majority&appName=PokemonLeague";
 const localurl = 'mongodb://localhost:27017/'
 
-const client = new MongoClient(localurl, {
+const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
